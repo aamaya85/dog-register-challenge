@@ -22,7 +22,8 @@ Change DB CONNECTION to sqlite
     DB_CONNECTION=sqlite
 
 Run following commands
-
+    
+    $ php artisan key:generate
     $ php artisan migrate
     $ php artisan serve
 
